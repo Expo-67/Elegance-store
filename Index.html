@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elegance Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar Ssection -->
+    <nav id="navBar">
+      <ul>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div id="cart-icon">🛒 Cart (<span id="cart-count">0</span>)</div>
+    </nav>
+    <!-- Cart model -->
+    <!-- Cart modal -->
+    <div id="cart-modal" class="hidden">
+      <h3>Cart Items</h3>
+      <ul id="cart-items"></ul>
+      <p><strong>Total:</strong> kshs<span id="cart-total">0.00</span></p>
+      <button id="checkout-button">Checkout</button>
+    </div>
+
+    <!-- Hero section  -->
+    <section id="hero">
+      <div class="hero-overlay">
+        <h1 class="id">Welcome to Elegance store 🙌</h1>
+      </div>
+    </section>
+
+    <!-- Product section -->
+    <section id="product">
+      <h2>Feature products</h2>
+      <div class="product-list">
+        <!-- Products will go here from db.json -->
+      </div>
+    </section>
+
+    <!-- customer reviews  -->
+    <section id="reviews">
+      <h2>Customer review</h2>
+      <div class="customer-review">
+        <!-- The customer reviews will go here being fetched from db.json -->
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" />
+
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your message"
+        ></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <!-- The form data is renderd here  -->
+    <section id="submissions">
+      <h2>Submitted Messages</h2>
+      <table id="submission-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Message</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Entries of the form  injected here -->
+        </tbody>
+      </table>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

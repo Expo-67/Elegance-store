@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Versace boots",
+      "size": "Large",
+      "gender": "Female",
+      "image": "/images/f1.jpg",
+      "description": "Elegant and soft inside, perfect for all occasions.",
+      "price": 8000
+    },
+    {
+      "id": 2,
+      "name": "Armani trenchcourt",
+      "size": "Large",
+      "gender": "Female",
+      "image": "/images/f3.jpg",
+      "description": "Stylish,  a must-have accessory.",
+      "price": 6000
+    },
+    {
+      "id": 3,
+      "name": "LV trench-court",
+      "size": "Medium",
+      "gender": "Male",
+      "image": "/images/men.jpg",
+      "description": "Comfortable, casual, and perfect for everyday wear.",
+      "price": 4500
+    },
+    {
+      "id": 4,
+      "name": "Armani trenchcourt",
+      "size": "X-Large",
+      "gender": "Female",
+      "image": "/images/f5.jpg",
+      "description": "Warm, cozy, and a great addition to any wardrobe.",
+      "price": 2500
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "author": "Henry Otieno",
+      "rating": 5,
+      "content": "I love this scarf! It's so soft and elegant very good store guys"
+    },
+    {
+      "id": 2,
+      "author": "Njenga Kimani",
+      "rating": 4,
+      "content": "A very stylish and trendy store, I highly recommend! "
+    }
+  ]
+}
